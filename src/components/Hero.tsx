@@ -23,6 +23,8 @@ import { useEffect, useState } from "react";
 import hero1 from "@/assets/hero.jpg";
 import hero2 from "@/assets/herohero.jpeg";
 import hero3 from "@/assets/hug.jpeg";
+import hero4 from "@/assets/hero4.jpg";
+import hero5 from "@/assets/hero5.jpg";
 
 // Mobile images
 // import heroMobile1 from "@/assets/newhero.jpeg";
@@ -36,7 +38,7 @@ import heroMobile8 from "@/assets/mobile_hero8.jpeg"
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-  const desktopImages = [hero1, hero2, hero3];
+  const desktopImages = [hero3, hero4, hero5];
   const mobileImages = [heroMobile7, heroMobile8, heroMobile6, heroMobile4];
 
   const [currentDesktop, setCurrentDesktop] = useState(0);
@@ -185,7 +187,7 @@ Qualität ist              </span>
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-white/30">
             {[
               { icon: <Home className="w-6 h-6 text-white" />, title: "Wie Zuhause", desc: "Betreuung in vertrauter Umgebung" },
-              { icon: <Clock className="w-6 h-6 text-white" />, title: "24/7 Für Sie da", desc: "Rund um die Uhr Betreuung" },
+              { icon: <Clock className="w-6 h-6 text-white" />, title: "24/7 Für Sie da", desc: "Rund um die Uhr Erreichbar" },
               { icon: <Users className="w-6 h-6 text-white" />, title: "Multikulturell", desc: "Vielfältiges Betreuerteam" },
             ].map((item, i) => (
               <motion.div
@@ -249,7 +251,7 @@ Qualität ist              </span>
             <div className="grid grid-cols-1 gap-3 w-full">
               {[
                 { icon: <Home className="w-5 h-5 text-white" />, title: "Wie Zuhause", desc: "Betreuung in vertrauter Umgebung" },
-                { icon: <Clock className="w-5 h-5 text-white" />, title: "24/7 Für Sie da", desc: "Rund um die Uhr Betreuung" },
+                { icon: <Clock className="w-5 h-5 text-white" />, title: "24/7 Für Sie da123", desc: "Rund um die Uhr Erreichbar" },
                 { icon: <Users className="w-5 h-5 text-white" />, title: "Multikulturell", desc: "Vielfältiges Betreuerteam" },
               ].map((item, i) => (
                 <motion.div
