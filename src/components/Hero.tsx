@@ -23,6 +23,8 @@ import { useEffect, useState } from "react";
 import hero1 from "@/assets/hero.jpg";
 import hero2 from "@/assets/herohero.jpeg";
 import hero3 from "@/assets/hug.jpeg";
+import hero4 from "@/assets/hero4.jpg";
+import hero5 from "@/assets/hero5.jpg";
 
 // Mobile images
 // import heroMobile1 from "@/assets/newhero.jpeg";
@@ -36,7 +38,7 @@ import heroMobile8 from "@/assets/mobile_hero8.jpeg"
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-  const desktopImages = [hero1, hero2, hero3];
+  const desktopImages = [hero3, hero4, hero5];
   const mobileImages = [heroMobile7, heroMobile8, heroMobile6, heroMobile4];
 
   const [currentDesktop, setCurrentDesktop] = useState(0);
