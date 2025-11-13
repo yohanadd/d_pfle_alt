@@ -36,7 +36,7 @@ const About = () => {
       icon: Heart,
       title: "Mit Herz",
       description: "Liebevolle Betreuung mit Empathie und Respekt für jeden Menschen.",
-      color: "from-trust-green to-trust-green/80",
+      color: "bg-[#00b140]",
       borderColor: "border-trust-green/20",
       bgColor: "bg-gradient-to-br from-white to-gray-50"
     },
@@ -44,7 +44,7 @@ const About = () => {
       icon: Shield,
       title: "Professionell",
       description: "Qualifizierte Fachkräfte mit langjähriger Erfahrung und kontinuierlicher Weiterbildung.",
-      color: "from-trust-green to-trust-green/80",
+      color: "bg-[#00b140]",
       borderColor: "border-trust-green/20",
       bgColor: "bg-gradient-to-br from-white to-gray-50"
     },
@@ -52,7 +52,7 @@ const About = () => {
       icon: Globe,
       title: "Multikulturell",
       description: "Vielfältiges Team mit Verständnis für verschiedene Kulturen und Sprachen.",
-      color: "from-trust-green to-trust-green/80",
+      color: "bg-[#00b140]",
       borderColor: "border-trust-green/20",
       bgColor: "bg-gradient-to-br from-white to-gray-50"
     },
@@ -60,7 +60,7 @@ const About = () => {
       icon: Clock,
       title: "Verlässlich",
       description: "24/7 Erreichbarkeit und pünktliche, zuverlässige Betreuung rund um die Uhr.",
-      color: "from-trust-green to-trust-green/80",
+      color: "bg-[#00b140]",
       borderColor: "border-trust-green/20",
       bgColor: "bg-gradient-to-br from-white to-gray-50"
     }
@@ -80,12 +80,12 @@ const About = () => {
             }`}>
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
                 Individuelle Betreuung mit{" "}
-                <span className="bg-gradient-to-r from-trust-green to-trust-green/80 bg-clip-text text-transparent">
+                <span className="text-[#00b140]">
                   Verantwortung
                 </span>
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Dreieich Pflege ist Ihr vertrauensvoller Partner für professionelle 
+                Pflegedienst Dreieich ist Ihr vertrauensvoller Partner für professionelle 
                 und liebevolle Betreuung zu Hause. Wir verstehen, dass jeder Mensch einzigartig ist 
                 und verdient individuelle Aufmerksamkeit.
               </p>
@@ -108,7 +108,7 @@ const About = () => {
                 >
                   <CardContent className="p-6">
                     <div className="flex items-center space-x-3 mb-4">
-                      <div className={`w-12 h-12 bg-gradient-to-br ${value.color} rounded-full flex items-center justify-center shadow-lg`}>
+                      <div className={`w-12 h-12 ${value.color} rounded-full flex items-center justify-center shadow-lg`}>
                         <value.icon className="w-6 h-6 text-white" />
                       </div>
                       <h3 className="text-lg font-semibold text-gray-900">
@@ -133,17 +133,17 @@ const About = () => {
               style={{ transitionDelay: '800ms' }}
             >
               {/* Top shadow effect */}
-              <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-trust-green/20 via-trust-green/10 to-transparent"></div>
+              <div className="absolute top-0 left-0 right-0 h-2 bg-gradient-to-r from-[#00b140]/20 via-[#00b140]/10 to-transparent"></div>
               
               <CardContent className="p-8">
-                <Quote className="w-8 h-8 text-trust-green mb-4" />
+                <Quote className="w-8 h-8 text-[#00b140] mb-4" />
                 <p className="text-lg text-gray-800 italic mb-6 leading-relaxed">
-                  "Dreieich Pflege hat unserer Familie in einer schwierigen Zeit geholfen. 
+                  "Pflegedienst Dreieich hat unserer Familie in einer schwierigen Zeit geholfen. 
                   Die Betreuer sind nicht nur kompetent, sondern auch herzlich und einfühlsam. 
                   Wir fühlen uns wie eine große Familie."
                 </p>
                 <div className="flex items-center space-x-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-trust-green to-trust-green/80 rounded-full flex items-center justify-center shadow-lg">
+                  <div className="w-12 h-12 bg-[#00b140] rounded-full flex items-center justify-center shadow-lg">
                     <Users className="w-6 h-6 text-white" />
                   </div>
                   <div>
