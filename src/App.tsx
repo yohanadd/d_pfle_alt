@@ -52,7 +52,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/d_pfle_alt/">
+        <BrowserRouter basename="/">
           <AppRoutes />
         </BrowserRouter>
       </TooltipProvider>
