@@ -59,7 +59,7 @@ const About = () => {
     {
       icon: Clock,
       title: "Verlässlich",
-      description: "24 Erreichbarkeit.",
+      description: "24/7 Erreichbarkeit.",
       color: "bg-[#00b140]",
       borderColor: "border-trust-green/20",
       bgColor: "bg-gradient-to-br from-white to-gray-50"
